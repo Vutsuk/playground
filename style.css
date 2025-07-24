@@ -208,3 +208,41 @@ body {
     border: 0.5vw rgb(21, 134, 255) solid;
     
 }
+
+
+.frame1{
+    display: flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgba(112, 0, 0, 0.354);
+    margin: 4vw 8vw 4vw 8vw ;
+    width: 32vw;
+    height: 24vw;
+    border-radius: 11%;
+    border: 0.5vw rgb(235, 12, 12) solid;
+}
+
+.Mtext{
+    color: rgb(255, 7, 7);
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: white;
+    text-underline-offset: 0.4vw;
+    font-size: 1.6vw;
+}
+
+.frame1:hover{
+    display: flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgba(11, 63, 118, 0.95);
+    margin: 4vw 8vw 4vw 8vw ;
+    width: 32vw;
+    height: 24vw;
+    border-radius: 11%;
+    border: 0.5vw rgb(0, 4, 255) solid;
+    
+}
