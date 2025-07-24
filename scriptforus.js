@@ -11,13 +11,13 @@ if (window.innerWidth <= 600) {
     document.getElementById("bgvideo").style.top = "50%";
     document.getElementById("bgvideo").style.opacity = "0.8";
     document.getElementById("logo").style.width = "9vw";
-    const e = document.getElementsByClassName("frame");
 
+    const e = document.getElementsByClassName("frame");
     for (i = 0; i < e.length; i++){
         e[i].style.width = "30%";
         e[i].style.height = "30%";
     }
-        const a = document.getElementsByClassName("fontbigsize");
+    const a = document.getElementsByClassName("fontbigsize");
     for (let i = 0; i < a.length; i++) {
         a[i].style.fontSize = "23px";
     }
