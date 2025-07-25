@@ -240,9 +240,30 @@ body {
     align-items:center;
     background-color: rgba(11, 63, 118, 0.95);
     margin: 4vw 8vw 4vw 8vw ;
-    width: 32vw;
-    height: 24vw;
+    width: 64vw;
+    height: 50vw;
     border-radius: 11%;
     border: 0.5vw rgb(0, 4, 255) solid;
     
+}
+
+.frame1{
+    display: flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgba(28, 0, 112, 0.234);
+    margin: 4vw 8vw 4vw 8vw ;
+    width: 64vw;
+    height: 50vw;
+    border-radius: 11%;
+    border: 0.5vw rgb(249, 249, 249) solid;
+}
+
+.imgfit1{
+    display: flex;
+    width: 64vw;
+    height: 42vw;
+    border-top-left-radius: 11%;
+    border-top-right-radius: 11%;
 }

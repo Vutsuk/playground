@@ -13,9 +13,11 @@ if (window.innerWidth <= 600) {
     document.getElementById("logo").style.width = "9vw";
 
     const e = document.getElementsByClassName("frame");
-    for (i = 0; i < e.length; i++){
-        e[i].style.width = "30%";
-        e[i].style.height = "30%";
+    for (i = 0; i < e.length; i++) {
+        e[i].style.width = "50vw"
+        e[i].style.height = "50vw";
+
+
     }
     const a = document.getElementsByClassName("fontbigsize");
     for (let i = 0; i < a.length; i++) {
@@ -39,5 +41,10 @@ if (window.innerWidth <= 600) {
         d[i].style.border = "2px white solid";
         d[i].style.fontSize = "10px";
         d[i].style.borderRadius = "11%";
+    }
+
+    const f = document.getElementsByClassName("flexcenterR")
+    for (i = 0; i < f.length; i++) {
+        f[i].style
     }
 }
