@@ -86,6 +86,7 @@ body {
 .LRpadforhead{
     padding-left: 3%;
     padding-right: 3%;
+    cursor:pointer;
 }
 .Lpad{
     padding-left: 6%;
@@ -112,6 +113,7 @@ body {
     text-align:center;
     padding: 10px 10px 10px 10px;
     font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
 }
 
 .button:hover{
@@ -182,6 +184,7 @@ body {
     height: 14vw;
     border-top-left-radius: 11%;
     border-top-right-radius: 11%;
+    object-fit:cover;
 }
 
 .textsize{
@@ -270,6 +273,7 @@ body {
     height: 42vw;
     border-top-left-radius: 11%;
     border-top-right-radius: 11%;
+    object-fit: cover;
 }
 
 .frame1:hover{
@@ -306,7 +310,7 @@ body {
 .navbar a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align:center;
   padding: 0.8vw 1.4vw;
   text-decoration: none;
   font-size: 1.3vw;
